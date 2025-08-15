@@ -7,7 +7,7 @@ namespace CPVoiceAssistant.Services;
 
 public class TelegramService : ITelegramService, IConvertorService, IAsyncDisposable
 {
-    private const string Key = "8496460014:AAENyxCthDcE7NApOXIwoWoCcf0_yUyt4dY";
+    private const string Key = "your api key from telegram";
     private static TelegramBotClient? _bot;
 
     public TelegramService()
